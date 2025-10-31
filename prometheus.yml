@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'nginx'
+    static_configs:
+      - targets: ['nginx-lb:9113']
+
+  - job_name: 'app-v1'
+    static_configs:
+      - targets: ['app-v1:5000']
+
+  - job_name: 'app-v2'
+    static_configs:
+      - targets: ['app-v2:5000']
