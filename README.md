@@ -52,20 +52,3 @@ Grafana	http://localhost:3000
 
 
 ---
-
-### ✅ Next Steps
-
-1. Create a folder on your local machine:
-   ```bash
-   mkdir ab-testing-demo && cd ab-testing-demo
-   ```
-2. Copy the structure and files above.
-3. Initialize git:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit - A/B testing infrastructure demo"
-   git branch -M main
-   git remote add origin https://github.com/majidkashefy1/ab-testing-demo.git
-   git push -u origin main
-   ```
